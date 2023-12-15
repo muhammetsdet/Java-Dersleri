@@ -1,0 +1,17 @@
+// TASK
+//  2 sayının Obeb ve Okek değerlerini bulan bir App yazınız.
+
+
+// --> YÖNTEM <--
+// ObebOkek CLASS (pojo class)
+// 2 int değer tanımlayalım
+// Encapsulation uygulayalım
+
+// HESAP CLASS (Metotlarımız için oluşturduğumuz class)
+// 2 Method yazalım
+// 1) obeb --> Parametre olarak ObebOkek classından bir obje alsın
+// 2) okek --> Parametre olarak ObebOkek classından bir obje alsın
+
+
+// RUNNER CLASS (İşlem classımız )
+// Bir obje üretip bu objenın OBEB ve OKEK degerlerini hesaplayıp yazdıralım

@@ -1,0 +1,33 @@
+package j11_Arrays.Tasks;
+ /*  Write a Java program to get a String from user as input and find the maximumCounts occurring character in that string.
+         (Ignore case sensitivity)
+         Girilen  string icinde en cok tekrar eden karakteri print eden code create ediniz.
+       input : JavaCAN'lara selam olsun
+       output: maximumCounts occurring character is : a
+        */
+
+import java.util.Scanner;
+
+public class Task22 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("agam bir metin gir : ");//hayat java ile cok kolay
+        String str = scan.next().toLowerCase();
+       String sentence[]=str.split("");
+        int maxCount=0;
+        String maxChar="";
+        for (int i = 0; i <sentence.length ; i++) {
+            int count = 0;
+            for (int j = 0; j <sentence.length; j++) {
+               if (sentence[i].equals(sentence[j])) {
+                   count++;
+               }
+            }
+            if (count > maxCount) {
+                maxCount = count;
+                maxChar = sentence[i];
+            }
+        }
+        System.out.println("Maximum occurring character is: " + maxChar);
+    }
+}
