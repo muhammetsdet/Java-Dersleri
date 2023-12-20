@@ -80,6 +80,19 @@ masa üstümdeki oluşturduğumuz klasör kodlar vs uzak masa üstündeki repost
 3-Local repoda version oluşturma git commit -m "isim" ile sağlanır.
 4-remote repoyu github'da oluşturma
 
+-->1- HashMap ve TreeMap thread-safe ve synchronized olmadıgı için Map'lar arasında thread-safe ve synchronize
+        olan bir map'e ihityaç oldugundan Hashtable tanımlanmıştır.
+-->Lambda collectionla çalışır.
+-->Terminal işlemlerinden sonra lambdanın methodları çaprılamıyor ancak ara işlemlerden sorna çaprılabilir.
+-->Filter her zaman boolean olmalı(if özelliğine benziyor kolulla çalışıyor)
+-->Lmabdada best practice method referance ile yazmak
+-->Stream collectiondan gelen elemanları tek tek akışa alındığı ve yapmak istediğimiz işlemi lambdaya girmemizi sağlayan kısımdır.
+-->reduce methodunun Optional diye collection dönüş değeri vardır. Yoksa elimize alıp işlem yapamayız. Fılter kısmından null değer gelebilir o yüzden int null olamayacağı için optional kullanırız.
+-->Optional lambda ile javaya gelen bir özelliktir.
+-->Verilerin depolandağı sanal serverlara data base denir.
+-->CTE-> Lambda expression ve method. ref aynı pararmetrede tanımlanamaz.(System.out.println(sayiList.stream().filter(t -> t > 58 && SeedMethods::ciftMi).reduce(Integer::min)))
+-->
+-->
 -->
 -->
 -->
