@@ -91,7 +91,7 @@ masa üstümdeki oluşturduğumuz klasör kodlar vs uzak masa üstündeki repost
 -->Optional lambda ile javaya gelen bir özelliktir.
 -->Verilerin depolandağı sanal serverlara data base denir.
 -->CTE-> Lambda expression ve method. ref aynı pararmetrede tanımlanamaz.(System.out.println(sayiList.stream().filter(t -> t > 58 && SeedMethods::ciftMi).reduce(Integer::min)))
--->
+-->Lambda da sk'p methodu da stream döndüğü için ya list yada array yapıp döndürmek gerekiyor.
 -->
 -->
 -->
