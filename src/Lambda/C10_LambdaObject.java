@@ -46,7 +46,7 @@ public class C10_LambdaObject {
 
     }
 
-    // Task01-> notOrt'larının 74'den buyuk oldg control eden code create ediniz...
+    // Task01-> notOrt'larının 74'den buyuk olduğunu control eden code create ediniz...
     public static String kontrolNotOrt74Byk(List<C10_University> unv) {
         return unv.stream().allMatch(t -> t.getNotOrt() > 74) ?
                 "Uni not ortalamasi 74'den buyuk" :

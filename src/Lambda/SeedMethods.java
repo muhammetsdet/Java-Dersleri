@@ -34,5 +34,11 @@ public class SeedMethods {
     public static void stringPrint(String a) {
         System.out.print(a + " ");
     }
+
+    public static boolean ciftKarakter(String a){
+       return a.length()%2==0;
+    }
+
+
 }
 

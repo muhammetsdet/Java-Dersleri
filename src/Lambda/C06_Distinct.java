@@ -23,6 +23,8 @@ public class C06_Distinct {
         printCharSayisiSiraTekrarsiz(yemahhh);
         System.out.println("\n****Task04*****");
         printSonCharTersSiraTekrarsiz(yemahhh);
+        System.out.println("\n****Task05*****");
+        printCiftSayılıCharSiraTekrarsiz(yemahhh);
 
     }
 
@@ -78,4 +80,12 @@ sorted((s1, s2) -> Character.compare(s2.charAt(s2.length() - 1), s1.charAt(s1.le
  */
     }
     // Task05-> listin elemanlarin  cift sayili karakterlerinin  karelerini   b->k sirali tekrarsiz print eden code create ediniz...
+    public static void printCiftSayılıCharSiraTekrarsiz(List<String> yemahhh) {
+        yemahhh
+                .stream()
+                .distinct()
+                .filter(SeedMethods::ciftKarakter)
+                .sorted()
+                .forEach(SeedMethods::stringPrint);
+    }
 }

@@ -92,6 +92,7 @@ masa üstümdeki oluşturduğumuz klasör kodlar vs uzak masa üstündeki repost
 -->Verilerin depolandağı sanal serverlara data base denir.
 -->CTE-> Lambda expression ve method. ref aynı pararmetrede tanımlanamaz.(System.out.println(sayiList.stream().filter(t -> t > 58 && SeedMethods::ciftMi).reduce(Integer::min)))
 -->Lambda da sk'p methodu da stream döndüğü için ya list yada array yapıp döndürmek gerekiyor.
+-->range methodunun dönüş değeri IntStream'dir.
 -->
 -->
 -->

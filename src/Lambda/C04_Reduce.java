@@ -98,7 +98,7 @@ public class C04_Reduce {
                 .reduce(Integer::min);
 
         // System.out.println(sayiList.stream().filter(t -> t > 58 && SeedMethods::ciftMi).reduce(Integer::min));
-        // Ahan da trick köşesinde böğün :) CTE-> exp ve meth. ref aynı pararmetrede tanımlanamaz
+        // Ahan da trick köşesinde böğün :) CTE->Lambda expression ve method ref aynı pararmetrede tanımlanamaz
     }
 }
 

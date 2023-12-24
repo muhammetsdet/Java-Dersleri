@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class C08_Limit {
@@ -40,7 +41,7 @@ public class C08_Limit {
                 .stream()
                 .sorted(Comparator.comparing(String::length).reversed())
                 .limit(1);
-        //System.out.println(enBykCharEl.collect(Collectors.toList()));
+      //  System.out.println(enBykCharEl.collect(Collectors.toList()));
         System.out.println("***Versiyon03****");
         System.out.println(Arrays.toString(enBykCharEl.toArray()));
         System.out.println("***Versiyon04****");

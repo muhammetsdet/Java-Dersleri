@@ -19,7 +19,7 @@ public class TextRead {
  1) absolute path seciyoruz yada
  2) path from content root seciyoruz
  her ikisinde de path kopyalamis oluyoruz
- ​
+
  cevirirken EXCEPTION OLUSMASIN DIYE => throws IOException <= EKLEMELIYIZ
  buda lines altinda kirmizi uyari veriyor uzerine tiklayinca kendiliginden oluyor.
  */
@@ -29,10 +29,10 @@ public class TextRead {
         Path erisilecekDosya=Path.of("src/lambda/HalUk");
         //Stream<String> dosyaAkisi= Files.lines(erisilecekDosya);
 
-        Stream<String> dosyaAkisi1=Files.lines(Path.of("src/lambda/HalUk"));
+       // Stream<String> dosyaAkisi1=Files.lines(Path.of("src/lambda/HalUk"));
         //dosyaAkisi.forEach(SeedMethods::stringPrint);
 
-        dosyaAkisi1.forEach(System.out::println);
+        //dosyaAkisi1.forEach(System.out::println);
 
         //TASK 02 --> haluk.txt dosyasini Console'a buyuk harflerle print eden code create ediniz.
         System.out.println("Task 02");

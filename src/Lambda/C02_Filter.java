@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Filter {
-   /*
+public class C02_Filter {
+
+    /*
     Filter:
     Dizimiz veya Collection’ımız üzerinde bizim belirteceğimiz koşullar doğrultusunda
     filtreleme işlemi yapmamıza yarayan bir yapıdır.
