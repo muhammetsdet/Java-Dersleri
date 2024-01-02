@@ -1,5 +1,10 @@
 package j23_Encapsulation.Task01;
-
+/*Task->
+Bmi class fields -> name, age, weight,height: encapsulated
+getBMI() method -> bmi=weight/(height*height) return type olmalı
+getStatus() method -> bmi 18.5 ten kucukse zayif, 25 ten kucukse normal,
+        30 dan kucukse kilolu, 30 ustu obez return type
+Runner class obj ile dataları print eden code create ediniz*/
 public class Bmi {//pojo Class
     // fields -> name, age, weight,height: encapsulated
     private String name;
