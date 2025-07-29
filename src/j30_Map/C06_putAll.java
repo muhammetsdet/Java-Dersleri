@@ -37,6 +37,5 @@ public class C06_putAll {
         HashMap<String, String> hm4 = new HashMap<>(hm3);// hm3 key value hm4'parametre atandı
         System.out.println("hm4 = " + hm4);//
 
-
     }
 }

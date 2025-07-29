@@ -13,15 +13,21 @@ public class Task01 {
         yoksa "Agam aradığınız kişiye ulaşılamadı" print eden code create ediniz.
 
          */
-        LinkedList<String > strList = new LinkedList<>(Arrays.asList("Murat","javaCAN","javaTAR","Musa bey"));
+LinkedList<String> list= new LinkedList<>(Arrays.asList("Murat","javaCAN","javaTAR","Musa bey"));
 
-        Scanner input=new Scanner(System.in);
-
-        System.out.println("Agam kime bakmıstınız : ");
-        String  aganınAdamı=input.next();
-        System.out.println(strList.remove(aganınAdamı) ? "Agam eleman halledildi" : "Agam aradığınız kişiye ulaşılamadı");
-
-
+Scanner scn = new Scanner(System.in);
+        System.out.println("Write a name");
+        String name = scn.nextLine();
+        System.out.println(list.remove(name) ? "Agam eleman halledildi" : "Agam aradığınız kişiye ulaşılamadı"); //cincix kod buna derler
+//        if (list.contains(name)){
+//            list.remove(name);
+//            System.out.println("Agam eleman halledildi");
+//
+//        }else{
+//            System.out.println("Agam aradığınız kişiye ulaşılamadı");
+//        }
+//        System.out.println(list);
+        System.out.println(list);
     }
 
 }

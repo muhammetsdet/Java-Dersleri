@@ -21,6 +21,5 @@ public class C08_getOrDefault {
         //hm map'de JavaZAN  key olmadıgıu için default value'su hajiJAVJAV return edildi.
         System.out.println("hm = " + hm);// Değişiklik olmadı çünkü CRUD'ın Read kısmını yaptık.
 
-
     }
 }

@@ -1,4 +1,4 @@
-package j23_Encapsulation.Task01;
+package j23_Encapsulation.Task.Task01;
 
 public class BmiRunner { public static void main(String[] args) {
     Bmi b1 = new Bmi("Merve", 30, 48, 165);

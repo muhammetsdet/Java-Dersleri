@@ -88,7 +88,7 @@ public class Filmler {
                     mainmenu();
                 }
             } else if (secim==3){
-                System.out.println("Kullanici adiniz girniz");
+                System.out.println("Kullanici adinizi giriniz");
                 String kullanici=scan.nextLine();
                 System.out.println("Sifrenizi giriniz");
                 String sifre=scan.next();

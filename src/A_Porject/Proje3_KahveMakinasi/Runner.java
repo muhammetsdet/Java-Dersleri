@@ -11,7 +11,10 @@ public class Runner {
     static int toplam ;
 
     public static void main(String[] args) {
-
+        System.out.println("Hangi kahveyi istersiniz? ");
+        for (String each:kahveListesi){
+            System.out.println(each);
+        }
 
 
     }

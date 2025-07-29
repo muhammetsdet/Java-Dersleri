@@ -16,7 +16,7 @@ public class C09_replace {
         hm.put("Media Markt", "444 Euro");
 
         System.out.println("hm  replace öncesi = " + hm);//{Apple=450 Euro, Saturn=200 Euro, Teknosa=333 Euro, Media Markt=444 Euro, Amazon=296 Euro, Vatan=111 Euro}
-        System.out.println("hm.replace(\"Amazon\",\"0.99 Euro\") = " + hm.replace("Amazon", "0.99 Euro"));//296 Euro
+        System.out.println("hm.replace(\"Amazon\",\"0.99 Euro\") = " + hm.replace("Amazon", "0.99 Euro"));//296 Euro eskiyi silmiş sildi sayısı veriyor.
 
         System.out.println("hm = " + hm);//{Apple=450 Euro, Saturn=200 Euro, Teknosa=333 Euro, Media Markt=444 Euro, Amazon=0.99 Euro, Vatan=111 Euro}
         System.out.println("hm.replace(\"ballıKelle\",\"israfff...\") = " + hm.replace("ballıKelle", "israfff..."));//  null

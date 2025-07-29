@@ -9,25 +9,13 @@ public class Rectangle {
      int width ;
      int length;
 
-
-    @Override
-    public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                ", length=" + length +
-                '}';
+    public int Cevre()
+    {
+        return (width+length)*2;
     }
 
-    public Rectangle(int width, int length) {
-        this.width = width;
-        this.length = length;
+    public int Alan()
+    {
+        return (width*length);
     }
-
-    public int getPerimeter() {
-        return 2*(width+length);
-    }
-    public int getArea() {
-        return width*length;
-    }
-
 }

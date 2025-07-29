@@ -13,10 +13,10 @@ public class C01_Ogretmen {//obj Class ->kalıphane
         => Static variable'lara object ile call edilebilir ama tavsiye edilmez.
         => Eger static variable'lara object ile call edilirse Java  sari alt cizgi ikaz eder->.BAD PRACTICE
         =>  static keyword hafıza opt. için kullanılır ve memory'de 1 kez oluşturulur
-​
+
              bir obj static variable değeri değişirse tüm obj variable değeri değişir
              static obj den bağımsızdır class'a bağımlı Class'ın malıdır.
-​
+
              Trick-> bir variable, methoda doğrudan calss name ile obj olmadan call etmek için static olmalıdır..
     */
 

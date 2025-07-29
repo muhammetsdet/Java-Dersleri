@@ -6,7 +6,7 @@ public abstract class Lastik extends Honda{
 
     public abstract void lastikEbat();// abs meth-> implement zorunlu
     public  void kisLastik(){//concrete meth->math call edilebilir
-        System.out.println("Agam karlı havada ihmal etme pis cexası var canını yakarlar :( ");
+        System.out.println("Agam karlı havada ihmal etme pis cezası var canını yakarlar :( ");
     }
 
 }

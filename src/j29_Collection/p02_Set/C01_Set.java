@@ -78,6 +78,8 @@ public class C01_Set {
         System.out.println("hs2.size() = " + hs2.size());// 9
         System.out.println("hs2.isEmpty() = " + hs2.isEmpty());//false
         System.out.println("hs1.isEmpty() = " + hs1.isEmpty());//true
+        hs1.add(null);
+        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());//false
         hs2.clear();
         System.out.println("hs2.size() = " + hs2.size());//0
         System.out.println("hs2.isEmpty() = " + hs2.isEmpty());// true
@@ -94,8 +96,8 @@ public class C01_Set {
         HashSet<Integer> hs6=new HashSet<Integer>(Arrays.asList(6,54,61,63,17,20));
         System.out.println("hs5.retainAll(hs6) = " + hs5.retainAll(hs6));//
 
-        Set<Integer> ortakEleman=new HashSet<>(hs6);// [17, 20, 6, 54, 61, 63]
-        System.out.println("ortakEleman = " + ortakEleman);//
+        Set<Integer> ortakEleman=new HashSet<>(hs6);
+        System.out.println("ortakEleman = " + ortakEleman);// [17, 20, 6, 54, 61, 63]
         System.out.println("ortakEleman.retainAll(hs5) = " + ortakEleman.retainAll(hs5));//
 
         System.out.println("hs5.equals(hs6) = " + hs5.equals(hs6));//false

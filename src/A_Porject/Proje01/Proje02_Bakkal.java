@@ -68,7 +68,7 @@ public class Proje02_Bakkal {
         return ortalamaUstuGunler;
     }
 
-    private static double getOrtalamaKazanc() {
+    static double getOrtalamaKazanc() {
         double toplam=0;
         for (int i = 0; i < gunlukKazanclar.size(); i++) {
             toplam+=gunlukKazanclar.get(i);

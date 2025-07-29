@@ -21,9 +21,9 @@ public class C02_Previous {
         }
         System.out.println();
         System.out.println("   ***   task02   ***   ");
-        // Task02-> l1son elemanını :-) ile update edip print eden code create ediniz.
+        // Task02-> l1 son elemanını :-) ile update edip print eden code create ediniz.
         ListIterator<String> it2 = l1.listIterator();
-        String sonEleman = null;
+
         while (it2.hasNext()) {// 2. step-> cursor son eleman sonuna konumlandıran iterator
             it2.next();
             if (it2.hasNext() == false) {//artık cursor sonda -> cunku sonrasında elaman yok false

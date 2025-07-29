@@ -14,7 +14,6 @@ public class C04_Teacher {
 
     public C04_Teacher(String ad, String soyad, String brans, int id, int tecrube, double maas, boolean emekli) {
         name = ad.toUpperCase();
-        //  name = ad.toUpperCase();
         this.soyad = soyad.toUpperCase();
         this.brans = brans;
         this.id = Math.abs(id);

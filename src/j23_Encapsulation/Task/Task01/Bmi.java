@@ -1,4 +1,4 @@
-package j23_Encapsulation.Task01;
+package j23_Encapsulation.Task.Task01;
 /*Task->
 Bmi class fields -> name, age, weight,height: encapsulated
 getBMI() method -> bmi=weight/(height*height) return type olmalı

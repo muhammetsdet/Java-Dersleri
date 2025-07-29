@@ -17,7 +17,7 @@ public class C03_ClassCastingException {
 
         } catch (ClassCastException e) {
             System.out.println("Agam int data type String atanır mı ?");
-            System.out.println("Agam  CATCH blok'dan selamkeee  bu cıktıyı okuduysan  try excp yakaladı  ");
+            System.out.println("Agam  CATCH blok'dan selamkeee  bu cıktıyı okuduysan  try excep yakaladı  ");
 
         }
         System.out.println("   ***   ");

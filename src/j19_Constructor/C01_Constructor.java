@@ -23,8 +23,8 @@ public class C01_Constructor {
      Bu zaman kaybını büyük ölçüde azaltır.
       */
     // fields-> obj variable => obj değerlerin aldıgı alan özellikler
-    String str;// Class level de obj variable (initial edilmemiş default değer alan) tanımlandı
-    String selam = "javaCAN'lara bolcan offer";// Class level de obj variable (initial edilmiş) tanımlandı
+    String str;// Class level de obj variable (initialize edilmemiş default değer alan) tanımlandı
+    String selam = "javaCAN'lara bolcan offer";// Class level de obj variable (initialize edilmiş) tanımlandı
 
     //C01_Constructor obj1 = new C01_Constructor();// Class level de p'siz const ile obj create ediidi
     C01_HelloWorld obj99 = new C01_HelloWorld();// hariçten bir Class'dan p'siz const ile obj create edildi
@@ -35,7 +35,7 @@ public class C01_Constructor {
         // ClasIsmi(Data type) objName = new Constructor()  -> new ve Constr :et-Tırnak
         C01_Constructor obj1 = new C01_Constructor();// farklı scop'larda aynı isimde obj creta edilebilir.
         //C01_Constructor obj1 = new C01_Constructor();// aynı scop'da aynı isimde obj creta edilemez
-        C01_Constructor obj2 = new C01_Constructor();// faistenilen scop'a istenildiğikadar obj create edilebilir
+        C01_Constructor obj2 = new C01_Constructor();// istenilen scop'a istenildiğikadar obj create edilebilir
         C01_Constructor obj3 = new C01_Constructor();// farklı scop'larda aynı isimde obj creta edilebilir.
 
         obj1.str = "javaNAZZZ";

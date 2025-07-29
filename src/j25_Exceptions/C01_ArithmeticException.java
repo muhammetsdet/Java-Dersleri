@@ -20,7 +20,7 @@ public class C01_ArithmeticException {//Class level
             System.out.println(sayi1 / sayi2);//emin olunmayan denenmesi bibakıverilmesi gereken action komut
             System.out.println("try blok'dan selamkeee");
              /*
-            1- try-catch kullanıldıgında try block hatasız çalışırsa catch block asla çalışmaz.catch block try block exception yakalarsa calışır
+            1- try-catch kullanıldıgında try block hatasız çalışırsa catch block asla çalışmaz. catch block try block exception yakalarsa calışır
             2- try block catch veya finally block olmadan CTE verir. try block'tan sonra birden fazla catch block tanımlanabilir.
                aynı anda  sadece bir catch block çalışabilir hiç bir catch block çalışmaya da bilir
             3- parent - child ilişkisi olan catch'lerde child önce yazılmalı aksi halde CTE
@@ -32,7 +32,7 @@ public class C01_ArithmeticException {//Class level
                 ArithmeticException ebikGabık) {//yakala->try blok denen istyisnai durum gerçekleşirse yapılması gereken handling-> action
             System.out.println("1.catch blok run edildi...");
             System.out.println("Agam nişledingg sıfır hiç böler mi? " + ebikGabık.getMessage());//exc mesajı print eder
-            ebikGabık.printStackTrace();//evc. tum cıktıyı print eder->gılgamış
+            ebikGabık.printStackTrace();//exc. tum cıktıyı print eder->gılgamış
             System.out.println("1.catch blok'dan selamkeee");
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("2.catch blok run edildi...");
@@ -54,6 +54,6 @@ public class C01_ArithmeticException {//Class level
             başarılı bir şekilde çalışırsa işlem bitiiğinde finally block ile connection kapanmazsa maliyet pahalı olur :(
              */
         }
-        System.out.println("Agam bu çıktıyı okuduysan app. gayet başarılı dewamkeee :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
+        System.out.println("Agam bu çıktıyı okuduysan app. gayet başarılı dewamkeee :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur.
     }// main sonu
 }//Class sonu

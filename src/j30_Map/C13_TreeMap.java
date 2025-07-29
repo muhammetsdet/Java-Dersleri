@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class C13_TreeMap {
     public static void main(String[] args) {
               /*
-        TreeMap->Mudur sırası
+        TreeMap->Mudur sırası (Doğal sıralama yapar null doğal olmadığı için hata verir.)
         1-TreeMap key'lerde null değer tanımlanamaz.Fakat value'larda null değer tanımlanabilir.
         2-TreeMap elemanlarının key NATUREL ORDER'a göre tanımlar.
         3-TreeMap synchronized ve thread-safe değildir
@@ -38,7 +38,7 @@ public class C13_TreeMap {
 
         TreeMap<String, String> tm1 = new TreeMap<>(hm); //bos tremap'3 hashMap parametre atandı
         System.out.println("tm1 hm convert sonrası  = " + tm1);
-        //  TreeMap<String, String> tm2 =hm; // CTE-> dataTYpe MissMatch
+        //  TreeMap<String, String> tm2 =hm; // CTE-> dataTYpe MissMatch HashMap ile TreeMap eşleşmez.
         //map.cilingKey();-> girilen key map'de varsa return eder yoksa parametre girilen keyden buyuk en kucuk key return eder
         //map.cilingKey();-> en kucuk abi-abla(en yakın buyuk) varsa return eder yoksa null atar
         System.out.println("tm = " + tm);//
@@ -61,6 +61,7 @@ public class C13_TreeMap {
         System.out.println("tm descendingKeySet onrası= " + tm);//
         System.out.println("tm.firstKey() = " + tm.firstKey());//
         System.out.println("tm.lastKey() = " + tm.lastKey());//
+
 
 
     }

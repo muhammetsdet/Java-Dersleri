@@ -12,7 +12,7 @@ public class Task01 {
          */
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(14, 25, 36, 47, 58, 69, 12, 45, 78));
         ListIterator<Integer> it = list.listIterator();
-        while (it.hasNext()) {//pointer son eleman sonuna konumladıran iterator tanımlandı
+        while (it.hasNext()) {//pointer son eleman sonuna konumlandıran iterator tanımlandı
 
             it.next();
 
